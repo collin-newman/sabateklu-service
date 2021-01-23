@@ -68,7 +68,7 @@ class Adventure extends Component {
         padding: '20px 13px 32px',
         height: '372px',
       },
-      reviews: {
+      sabaReviews: {
         paddingLeft: '10px',
         paddingRight: '10px',
         paddingBottom: '0px',
@@ -182,7 +182,7 @@ class Adventure extends Component {
           getLabelText={(value) => `${value} reviews \n`}
         />
         <Typography
-          style={this.useStyles.reviews}
+          style={this.useStyles.sabaReviews}
           variant="body2"
           color="textSecondary"
           component="span"
